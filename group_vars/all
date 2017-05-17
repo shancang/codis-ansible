@@ -17,7 +17,7 @@ proxy_addr: 0.0.0.0:19000
 
 proxy_admin_addr: 0.0.0.0:11080
 
-codis_server_workdir: /home/codis/redis
+codis_server_workdir: /home/codis/redis/redis
 
 codis_server_port: 6379
 
