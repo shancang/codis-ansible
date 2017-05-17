@@ -1,0 +1,14 @@
+[codis-dashboard-servers]
+192.168.33.7
+[codis-proxy-servers]
+192.168.33.7
+192.168.33.8
+192.168.33.9
+[codis-servers]
+192.168.33.7
+192.168.33.8
+192.168.33.9
+[codis-fe-servers]
+192.168.33.7
+[redis-sentinel-servers]
+192.168.33.7

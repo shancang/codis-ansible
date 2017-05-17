@@ -1,0 +1,26 @@
+---
+codis_dir: /tmp/install
+
+coordinator_name: zookeeper
+
+coordinator_addr: 192.168.33.7:2181,192.168.33.8:2181,192.168.33.9:2181
+
+codis_install_dir: /home/codis/codis-vip
+
+product_name: codis-demo
+
+product_auth: test
+
+dashboard_addr: 192.168.33.7:18080
+
+proxy_addr: 0.0.0.0:19000
+
+proxy_admin_addr: 0.0.0.0:11080
+
+codis_server_workdir: /home/codis/redis
+
+codis_server_port: 6379
+
+redis_sentinel_workdir: /home/codis/sentinel-26379
+
+redis_sentinel_port: 26379

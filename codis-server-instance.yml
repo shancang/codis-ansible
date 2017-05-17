@@ -1,0 +1,14 @@
+---
+- name: codis environment init
+  hosts: all
+  remote_user: codis
+  roles:
+    - common
+
+- name: Install codis-server
+  hosts: codis-servers
+  vars:
+    - codis_server_port: 6381
+  remote_user: codis
+  roles:
+    - codis-server
